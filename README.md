@@ -30,6 +30,9 @@
 
   * Closure capture와 ARC의 관계를 이해하고, strong/weak reference가 객체의 lifetime에 미치는 영향을 판단한다.
 
+* [weak & unowned](./memory-lifetime/02-weak-unowned)
+  * `weak`과 `unowned`가 표현하는 lifetime 가정의 차이를 이해하고, 객체 간 생애주기 관계에 따라 적절한 참조 방식을 판단한다.
+
 ### Concurrency
 
 * [async/await & Suspension](./concurrency/01-async-await-suspension)
