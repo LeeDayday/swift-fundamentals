@@ -24,6 +24,9 @@
 
   * Static type과 dynamic type이 함수 및 메서드 선택에 어떤 영향을 주는지 구분한다.
 
+* [Generics & Type Constraint](./type-system/02-generics-type-constraint)
+  * Generic type parameter와 constraint의 역할을 이해하고, Generic과 `any Protocol`이 구체 타입 정보를 다루는 차이를 구분한다.
+
 ### Memory & Lifetime
 
 * [Closure Capture & weak self](./memory-lifetime/01-closure-capture-weak-self)
