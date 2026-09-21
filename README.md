@@ -27,6 +27,9 @@
 * [Generics & Type Constraint](./type-system/02-generics-type-constraint)
   * Generic type parameter와 constraint의 역할을 이해하고, Generic과 `any Protocol`이 구체 타입 정보를 다루는 차이를 구분한다.
 
+* [Optional & Optional Binding](./type-system/03-optional-binding)
+  * `Optional<T>` 의 구조를 이해하고, `if let` 이 기존 Optional 의 타입을 변경하는 것이 아니라, unwrap된 값을 현재 scope에서 사용할 수 있게 하는 과정임을 이해한다.
+
 ### Memory & Lifetime
 
 * [Closure Capture & weak self](./memory-lifetime/01-closure-capture-weak-self)
