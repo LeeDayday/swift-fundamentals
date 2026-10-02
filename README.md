@@ -62,6 +62,9 @@
 - [Property Observers](./state-mutation/02-property-observers)
   - `willSet`과 `didSet`의 실행 시점을 이해하고, 상태 변경 전후의 값을 구분한다.
 
+- [inout & Exclusive Access](./state-mutation/03-inout-exclusive-access)
+  - `inout`을 통해 호출자의 값을 변경하는 방식과 변경 중 exclusive access가 필요한 이유를 이해한다.
+
 ### Error & Control Flow
 
 * [defer](./error-control-flow/01-defer)
