@@ -74,3 +74,7 @@
 * [throws & Error Propagation](./error-control-flow/02-throws-error-propagation)
 
   * `throw`, `throws`, `try`의 역할을 구분하고 오류가 호출자를 따라 전파되는 흐름을 이해한다.
+
+- [Result](./error-control-flow/03-result)
+  - 성공과 실패를 값으로 표현하는 `Result`를 이해하고, 실패를 control flow로 표현하는 `throws` 와의 차이를 구분한다.
+
