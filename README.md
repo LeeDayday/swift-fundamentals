@@ -53,6 +53,10 @@
 
   * Task cancellation이 강제 종료가 아닌 취소 요청임을 이해하고, Task가 취소에 협력하여 종료되는 흐름을 이해한다.
 
+- [Actor Isolation](./concurrency/04-actor-isolation/)
+
+  - `actor` 가 공유 상태에 대한 접근을 조정하는 원리를 이해하고, Actor Isolation과 Access Control의 차이를 구분한다.
+
 ### State & Mutation
 
 * [Value Semantics & Mutation](./state-mutation/01-value-semantics-mutation)
