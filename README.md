@@ -35,6 +35,7 @@
 | [async let](./concurrency/02-async-let) | 여러 비동기 작업을 먼저 시작하고 나중에 결과를 기다리는 흐름과 child task의 관계를 이해한다. |
 | [Task Cancellation](./concurrency/03-task-cancellation) | Task cancellation이 강제 종료가 아닌 취소 요청임을 이해하고, Task가 취소에 협력하여 종료되는 흐름을 이해한다. |
 | [Actor Isolation](./concurrency/04-actor-isolation/) | `actor` 가 공유 상태에 대한 접근을 조정하는 원리를 이해하고, Actor Isolation과 Access Control의 차이를 구분한다. |
+| [Actor Reentrancy](/concurrency/05-actor-reentrancy/) | `await`에서 Task 가 suspend 되는 동안 다른 Task 가 같은 actor 에 진입할 수 있음을 이해하고, 상태 검사와 변경 사이의 일관성 문제를 구분한다. |
 
 ### State & Mutation
 
