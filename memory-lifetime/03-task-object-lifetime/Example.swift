@@ -47,7 +47,7 @@ final class Worker {
 }
 
 func runStrong() {
-    let worker = Worker(name:: "Strong")
+    let worker = Worker(name: "Strong")
     worker.startStrong()
     print("runStrong finished")
 }
