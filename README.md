@@ -19,6 +19,8 @@
 | [Static Type & Dynamic Type](./type-system/01-static-dynamic-type) |  Static type과 dynamic type이 함수 및 메서드 선택에 어떤 영향을 주는지 구분한다. |
 | [Generics & Type Constraint](./type-system/02-generics-type-constraint) | Generic type parameter와 constraint의 역할을 이해하고, Generic과 `any Protocol`이 구체 타입 정보를 다루는 차이를 구분한다. |
 | [Optional & Optional Binding](./type-system/03-optional-binding) | `Optional<T>` 의 구조를 이해하고, `if let` 이 기존 Optional 의 타입을 변경하는 것이 아니라, unwrap된 값을 현재 scope에서 사용할 수 있게 하는 과정임을 이해한다. |
+| [Opaque Type vs Existential Type](./type-system/04-some-vs-any) | some 과 any 의 구체 타입 처리 방식과 타입 정체성의 차이를 이해하고, 컴파일러가 아는 타입과 호출자에게 공개되는 인터페이스를 구분한다. |
+
 
 ### Memory & Lifetime
 
